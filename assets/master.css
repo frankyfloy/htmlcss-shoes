@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* -------NAVBAR -----------*/
+.shortcuts-images{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    line-height: 60px;
+    top: 0;
+    left: 0;
+}
+
+.fa-circle{
+    color: white;
+    font-size: 40px;
+    line-height: 60px;
+    vertical-align: middle;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* positioning icons */
+nav > i{
+    top: 50%;
+}
+
+#icon-1{
+    right: 40px;
+}
+
+#icon-2{
+    right: 120px;
+}
+
+#icon-3{
+    right: 200px;
+}
+
+
+/* positioning icons (momentary)*/
+nav > span{
+    position: absolute;
+    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    vertical-align: middle;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+[id^='num-']{
+    top: 50%;
+}
+
+#num-1{
+    right: 67px;
+}
+
+#num-2{
+    right: 147px;
+}
+
+#num-3{
+    right: 227px;
+}
+
+
+/* -------ROW--------- */
+.row{
+    height: 100vh;
+    width: 100vw;
+}
+.row2, .row3{
+    position:relative;
+}
+
+.row1{
+    background-color: red;
+}
+
+.row2{
+    background-color: green;
+}
+
+.row3{
+    background-color: yellow;
+}
+
+
+/* containers img/text */
+.container-first-model,.container-second-model,.container-third-model{
+    width: 60%;
+    height: 60%;
+}
+
+
+/* -------Container-img-------- */
+
+#first-model{
+    background-image: url('img/01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+#second-model{
+    background-image: url('img/02.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+#third-model{
+    background-image: url('img/03.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* -----Centering-------- */
+.centering{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+/* ---Text-property---- */
+
+.text-property{
+    font-size: 2em;
+    text-align: center;
+}
+
+.text-style{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.text-color-yellow{
+    color: yellow;
+}
+
+.text-color-green{
+    color: green;
+}
+
+/* ---Row---- */
+/* .row:after{
+    clear: both;
+    content:'';
+    display: table;
+} */
